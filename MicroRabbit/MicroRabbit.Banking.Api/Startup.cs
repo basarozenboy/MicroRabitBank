@@ -37,7 +37,7 @@ namespace MicroRabbit.Banking.Api
             }
             );
 
-            services.AddMvc();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
 
             services.AddSwaggerGen(c =>
             {

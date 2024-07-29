@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "MicroRabbit.Banking.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56251;http://localhost:56253"
+    }
+  }
+}
