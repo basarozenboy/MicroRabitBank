@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MicroRabbit.Banking.Data.Migrations
 {
     [DbContext(typeof(BankingDbContext))]
-    [Migration("20240728200009_Initial Migration")]
+    [Migration("20240731065715_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
